@@ -11,8 +11,11 @@
 Пример на заявките с cURL:
 
 `curl --location --request GET 'http://localhost:8080/services'
+
 curl --location --request POST 'http://localhost:8080/enroll' --header 'Content-Type: text/plain' --data-raw 'b86933bf-d672-497e-9e5e-940246b1e647'
+
 curl --location --request PUT 'http://localhost:8080/desk/5' --header 'Content-Type: application/json' --data-raw '["b86933bf-d672-497e-9e5e-940246b1e647","aa29efcc-327f-4560-bc3d-898bb0dc4f18"]'
+
 curl --location --request GET 'http://localhost:8080/board?top=5'`
 
 Успех!
